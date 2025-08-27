@@ -1,6 +1,6 @@
 # 🚀 Production RAG System (Ollama Edition)
 
-**Author:** Srikanth Parsa  
+**Author:** Srikanth   
 **Date:** August 2025  
 
 A **Retrieval-Augmented Generation (RAG) system** built to answer questions on the **History of Artificial Intelligence** — fully offline, local-first, and production-ready.  
