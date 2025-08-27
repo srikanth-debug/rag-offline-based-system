@@ -64,7 +64,7 @@ def ask_question(request: QueryRequest):
     if confidence < CONFIDENCE_THRESHOLD:
         total_time = time.time() - start_time
         return QueryResponse(
-            answer=I'm sorry, my knowledge is limited to the history of Artificial Intelligence. I cannot answer that question based on the provided documents.",
+            answer="I'm sorry, my knowledge is limited to the history of Artificial Intelligence. I cannot answer that question based on the provided documents.",
             citations=[],
             confidence=confidence,
             timings={
