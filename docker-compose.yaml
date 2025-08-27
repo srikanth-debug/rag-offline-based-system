@@ -1,0 +1,31 @@
+
+services:
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    # Uncomment the line below if you have a GPU and want to use it
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+  rag_api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app  # Mounts your local code into the container for easy development
+    depends_on:
+      - ollama
+    # We need to tell our app how to find the ollama service
+    environment:
+      - OLLAMA_API_URL=http://ollama:11434/api/generate
+
+volumes:
+  ollama_data:

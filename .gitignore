@@ -1,0 +1,19 @@
+# Local environment folder
+/venv/
+/env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated data files (database, indexes)
+/db/
+bm25_index.pkl
+hashes.json
+
+# Local configuration (should not be in public repo)
+.env
+
+# macOS metadata files
+.DS_Store
+._*

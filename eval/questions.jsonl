@@ -1,0 +1,6 @@
+{"question": "What was the main goal of the 1956 Dartmouth workshop?", "gold_answer": "The main goal was to explore the conjecture that every aspect of intelligence could be simulated by a machine.", "gold_citations": ["dartmouth_1955.pdf"]}
+{"question": "What is the Turing Test?", "gold_answer": "It is a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human.", "gold_citations": ["turing_1950.pdf", "milestones.csv"]}
+{"question": "Who won the 1997 chess match between a computer and the world champion?", "gold_answer": "IBM's Deep Blue computer defeated Garry Kasparov.", "gold_citations": ["milestones.csv"]}
+{"question": "Describe the concept of a neural network.", "gold_answer": "Neural networks are algorithms modeled after the human brain, designed to recognize patterns.", "gold_citations": ["key_concepts.md"]}
+{"question": "When did IBM's Watson win on Jeopardy!?", "gold_answer": "Watson won Jeopardy! in 2011.", "gold_citations": ["milestones.csv"]}
+{"question": "What is the capital of France?", "gold_answer": "ABSTAIN", "gold_citations": []}

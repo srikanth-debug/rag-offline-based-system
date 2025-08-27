@@ -1,0 +1,9 @@
+FROM ./Phi-3-mini-4k-instruct-q4.gguf
+TEMPLATE """<s>{{ if .Prompt }}<|user|>
+{{ .Prompt }}<|end|>
+{{ end }}<|assistant|>
+{{ .Response }}<|end|>"""
+PARAMETER stop <|endoftext|>
+PARAMETER stop <|assistant|>
+PARAMETER stop <|end|>
+PARAMETER num_ctx 4096

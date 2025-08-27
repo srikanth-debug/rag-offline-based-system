@@ -1,0 +1,28 @@
+# --- CRITICAL PINS ---
+numpy==1.26.4
+huggingface-hub==0.19.4 
+
+# --- Core Libraries ---
+langchain==0.1.16
+chromadb==0.4.24
+sentence-transformers==2.2.2
+transformers==4.38.2
+torch
+requests
+
+# --- API & UI ---
+fastapi
+uvicorn[standard]
+streamlit
+
+
+# --- Parsers & Utilities ---
+pypdf
+pytesseract
+beautifulsoup4
+pandas
+markdown-it-py
+pdf2image
+Pillow
+python-dotenv
+rank_bm25

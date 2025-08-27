@@ -1,0 +1,24 @@
+# macOS specific files
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# macOS hidden folders
+*/.Trashes
+*/.fseventsd
+*/.Spotlight-V100
+*/.TemporaryItems
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local Conda environment
+env/
+
+# Git folder
+.git/
+
+# Prevent issues with files that start with .
+.*
